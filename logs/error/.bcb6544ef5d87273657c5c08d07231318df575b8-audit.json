@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/home/work/IdeaProjects/express-test/logs/error/.bcb6544ef5d87273657c5c08d07231318df575b8-audit.json",
+    "files": [
+        {
+            "date": 1667541843164,
+            "name": "/home/work/IdeaProjects/express-test/logs/error/2022-11-04.error.log",
+            "hash": "3e5b2f48faf8dfac72c5df0bc3628cc7ab9c5ce6f690c41883ae78afed3057bb"
+        }
+    ],
+    "hashType": "sha256"
+}
