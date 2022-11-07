@@ -8,6 +8,10 @@ const morganMiddleware = require('./morganMiddleware');
 
 const session = require('express-session');
 const FileStore = require('session-file-store')(session);
+const nunjucks = require('nunjucks');
+
+const { sequelize} = require('./models/index')
+
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -31,7 +35,18 @@ var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'pug');
+
+sequelize.sync( { force : false})
+    .then( () =>{
+        console.log("데이터베이스 연결 성공 했지롱!!!");
+    })
+    .catch((err) => {
+        console.log(err);
+    })
+
+
+nunjucks.configure('views',{ express:app, watch:true})
+app.set('view engine', 'html');
 
 app.use(morganMiddleware);
 

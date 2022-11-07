@@ -9,6 +9,11 @@
             "date": 1667541843164,
             "name": "/home/work/IdeaProjects/express-test/logs/error/2022-11-04.error.log",
             "hash": "3e5b2f48faf8dfac72c5df0bc3628cc7ab9c5ce6f690c41883ae78afed3057bb"
+        },
+        {
+            "date": 1667781617312,
+            "name": "/home/work/IdeaProjects/express-test/logs/error/2022-11-07.error.log",
+            "hash": "697a8bc7e1112d2ca9538d42285f3693527e570c5f51e0d632492b39c6d816f0"
         }
     ],
     "hashType": "sha256"
