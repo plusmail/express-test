@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% block css%}
+    {% endblock %}
+
+</head>
+<body>
+<div class="header">
+    <h1>{{text}} 방문은 환영합니다. </h1>
+</div>
+<div class="topnav">
+    {% block navbar%}
+    {% endblock%}
+</div>
+<div class="row">
+    <div class="column">
+        {% block sectionmenu %}
+        {% endblock %}
+    </div>
+    <div class="column">
+        {% block sectionmenu1 %}
+        {% endblock %}
+    </div>
+</div>
+
+{% block script %}
+{% endblock %}
+
+<footer>
+{% include "footer.html" %}
+</footer>
+</body>
+</html>
