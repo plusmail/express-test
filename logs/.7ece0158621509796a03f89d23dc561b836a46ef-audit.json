@@ -14,6 +14,11 @@
             "date": 1667781617311,
             "name": "/home/work/IdeaProjects/express-test/logs/2022-11-07.log",
             "hash": "5755d8efab061e466b4edd9ea2df56d31bca672ee7878b419f5b940d552e7267"
+        },
+        {
+            "date": 1667869519560,
+            "name": "/home/work/IdeaProjects/express-test/logs/2022-11-08.log",
+            "hash": "479b91b229fefaab04e1700c1d2c4f6ecc230ac6487742f565dda19f1d052a81"
         }
     ],
     "hashType": "sha256"
