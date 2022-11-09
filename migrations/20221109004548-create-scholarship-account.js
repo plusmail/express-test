@@ -25,7 +25,14 @@ module.exports = {
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE
-      }
+      },
+      student_ID: { //
+        references: {
+          model: 'Students',
+          key: 'id',
+        },
+        type: Sequelize.INTEGER,
+      },
     });
   },
   async down(queryInterface, Sequelize) {

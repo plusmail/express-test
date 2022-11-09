@@ -138,3 +138,35 @@ TypeError: Cannot read properties of undefined (reading 'findOne')
     at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
     at Module._compile (node:internal/modules/cjs/loader:1155:14)
     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-09 14:44:50 [express] error: uncaughtException: Cannot drop table 'Students' referenced by a foreign key constraint 'Grade_ibfk_2' on table 'Grade'.
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.dropTable (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:111:5)
+    at async Function.drop (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1007:12)
+    at async Sequelize.drop (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:428:9)
+    at async Sequelize.sync (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:365:7)
+    at async /home/work/IdeaProjects/express-test/app.js:47:5
+2022-11-09 14:47:04 [express] error: uncaughtException: Cannot drop table 'Students' referenced by a foreign key constraint 'Grade_ibfk_2' on table 'Grade'.
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.dropTable (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:111:5)
+    at async Function.drop (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1007:12)
+    at async Sequelize.drop (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:428:9)
+    at async Sequelize.sync (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:365:7)
+    at async /home/work/IdeaProjects/express-test/app.js:47:5
+2022-11-09 15:07:57 [express] error: uncaughtException: onDelete is not defined
+ReferenceError: onDelete is not defined
+    at Function.associate (/home/work/IdeaProjects/express-test/models/student.js:15:9)
+    at /home/work/IdeaProjects/express-test/models/index.js:42:23
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/models/index.js:40:17)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)

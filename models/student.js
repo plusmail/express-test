@@ -11,6 +11,11 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      Student.hasOne(models.ScholarshipAccount, {
+        onDelete : 'RESTRICT',
+        onUpdate : 'RESTRICT'
+      }); //
+      Student.belongsToMany(models.Course, { through: models.Grade  });
     }
   }
   Student.init({

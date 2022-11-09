@@ -44,7 +44,7 @@ app.set('views', path.join(__dirname, 'views'));
 const db = require('./models/index.js');
 const sequelize = db.sequelize;
 (async () => {
-    await sequelize.sync();
+    await sequelize.sync({ force: true });
 })();
 
 
