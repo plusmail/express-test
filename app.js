@@ -10,9 +10,6 @@ const session = require('express-session');
 const FileStore = require('session-file-store')(session);
 const nunjucks = require('nunjucks');
 
-const {sequelize} = require('./models/index')
-
-
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
@@ -36,52 +33,20 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 
-sequelize.sync({force: false})
-    .then(() => {
-        console.log("데이터베이스 연결 성공 했지롱!!!");
-    })
-    .catch((err) => {
-        console.log(err);
-    })
+// sequelize.sync({force: false})
+//     .then(() => {
+//         console.log("데이터베이스 연결 성공 했지롱!!!");
+//     })
+//     .catch((err) => {
+//         console.log(err);
+//     })
 
-const {User, Comment} = require('./models')
-const {Op} = require('sequelize');
-// User.create({
-//     name : "홍길동",
-//     age : 30,
-//     address : "대전광역시",
-//     married : false,
-//     comment : "재밋는 사람",
-// });
+const db = require('./models/index.js');
+const sequelize = db.sequelize;
+(async () => {
+    await sequelize.sync();
+})();
 
-// User.findAll({
-//     attributes: ['name', 'married'],
-//     where : {
-//         'married' : 1,
-//         'age' : { [Op.gte] : 30}
-//     }
-// }).then((result)=> {
-//     console.log(result);
-// });
-
-// User.update({
-//     comment: '수정합니다11111.',
-// }, {
-//     where: {'id': 24},
-// }).then((r) => {
-//     console.log("수정완료")
-// })
-
-const user = User.findOne({
-    include : [{
-        model : Comment,
-        attributes : ['id', 'comment'],
-    }]
-}).then( r => {
-    console.log("조인 완료" ,r);
-}).catch( e => {
-    console.log(e);
-})
 
 nunjucks.configure('views', {express: app, watch: true})
 app.set('view engine', 'html');
