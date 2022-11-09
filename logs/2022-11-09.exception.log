@@ -1,0 +1,140 @@
+2022-11-09 10:04:48 [express] error: uncaughtException: Identifier 'sequelize' has already been declared
+/home/work/IdeaProjects/express-test/models/index.js:15
+const sequelize = new Sequelize(
+      ^
+
+SyntaxError: Identifier 'sequelize' has already been declared
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1084:15)
+    at Module._compile (node:internal/modules/cjs/loader:1119:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:13:21)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+2022-11-09 10:04:50 [express] error: uncaughtException: Identifier 'sequelize' has already been declared
+/home/work/IdeaProjects/express-test/models/index.js:17
+const sequelize = new Sequelize(
+      ^
+
+SyntaxError: Identifier 'sequelize' has already been declared
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1084:15)
+    at Module._compile (node:internal/modules/cjs/loader:1119:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:13:21)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+2022-11-09 10:05:16 [express] error: uncaughtException: sequelize is not defined
+ReferenceError: sequelize is not defined
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/models/index.js:14:16)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:13:21)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-09 10:12:35 [express] error: uncaughtException: basename is not defined
+ReferenceError: basename is not defined
+    at /home/work/IdeaProjects/express-test/models/index.js:28:49
+    at Array.filter (<anonymous>)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/models/index.js:26:6)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:13:21)
+2022-11-09 10:13:22 [express] error: uncaughtException: fs is not defined
+ReferenceError: fs is not defined
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/models/index.js:23:1)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:13:21)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-09 10:13:36 [express] error: uncaughtException: basename is not defined
+ReferenceError: basename is not defined
+    at /home/work/IdeaProjects/express-test/models/index.js:27:49
+    at Array.filter (<anonymous>)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/models/index.js:25:6)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:13:21)
+2022-11-09 10:14:18 [express] error: uncaughtException: fs is not defined
+ReferenceError: fs is not defined
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/models/index.js:23:1)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:13:21)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-09 10:14:35 [express] error: uncaughtException: basename is not defined
+ReferenceError: basename is not defined
+    at /home/work/IdeaProjects/express-test/models/index.js:27:49
+    at Array.filter (<anonymous>)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/models/index.js:25:6)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:13:21)
+2022-11-09 10:14:48 [express] error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/models/index.js:6:18)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:13:21)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-09 10:15:05 [express] error: uncaughtException: Class constructor Comment cannot be invoked without 'new'
+TypeError: Class constructor Comment cannot be invoked without 'new'
+    at /home/work/IdeaProjects/express-test/models/index.js:33:58
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/models/index.js:32:6)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:13:21)
+2022-11-09 10:18:54 [express] error: uncaughtException: Cannot read properties of undefined (reading 'findOne')
+TypeError: Cannot read properties of undefined (reading 'findOne')
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:75:19)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)

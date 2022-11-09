@@ -1,0 +1,539 @@
+2022-11-08 11:45:50 [express] error: uncaughtException: user is not defined
+ReferenceError: user is not defined
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:50:1)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-08 11:45:56 [express] error: uncaughtException: Cannot read properties of undefined (reading 'configure')
+TypeError: Cannot read properties of undefined (reading 'configure')
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:53:10)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-08 11:46:02 [express] error: uncaughtException: notNull Violation: User.name cannot be null,
+notNull Violation: User.age cannot be null,
+notNull Violation: User.address cannot be null,
+notNull Violation: User.married cannot be null
+SequelizeValidationError: notNull Violation: User.name cannot be null,
+notNull Violation: User.age cannot be null,
+notNull Violation: User.address cannot be null,
+notNull Violation: User.married cannot be null
+    at InstanceValidator._validate (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/instance-validator.js:50:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async InstanceValidator._validateAndRunHooks (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/instance-validator.js:60:7)
+    at async InstanceValidator.validate (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/instance-validator.js:54:12)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2368:7)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 11:46:05 [express] error: uncaughtException: notNull Violation: User.name cannot be null,
+notNull Violation: User.age cannot be null,
+notNull Violation: User.address cannot be null,
+notNull Violation: User.married cannot be null
+SequelizeValidationError: notNull Violation: User.name cannot be null,
+notNull Violation: User.age cannot be null,
+notNull Violation: User.address cannot be null,
+notNull Violation: User.married cannot be null
+    at InstanceValidator._validate (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/instance-validator.js:50:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async InstanceValidator._validateAndRunHooks (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/instance-validator.js:60:7)
+    at async InstanceValidator.validate (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/instance-validator.js:54:12)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2368:7)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 11:46:16 [express] error: uncaughtException: notNull Violation: User.age cannot be null,
+notNull Violation: User.address cannot be null,
+notNull Violation: User.married cannot be null
+SequelizeValidationError: notNull Violation: User.age cannot be null,
+notNull Violation: User.address cannot be null,
+notNull Violation: User.married cannot be null
+    at InstanceValidator._validate (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/instance-validator.js:50:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async InstanceValidator._validateAndRunHooks (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/instance-validator.js:60:7)
+    at async InstanceValidator.validate (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/instance-validator.js:54:12)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2368:7)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 11:46:22 [express] error: uncaughtException: notNull Violation: User.address cannot be null,
+notNull Violation: User.married cannot be null
+SequelizeValidationError: notNull Violation: User.address cannot be null,
+notNull Violation: User.married cannot be null
+    at InstanceValidator._validate (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/instance-validator.js:50:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async InstanceValidator._validateAndRunHooks (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/instance-validator.js:60:7)
+    at async InstanceValidator.validate (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/instance-validator.js:54:12)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2368:7)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 11:46:34 [express] error: uncaughtException: notNull Violation: User.married cannot be null
+SequelizeValidationError: notNull Violation: User.married cannot be null
+    at InstanceValidator._validate (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/instance-validator.js:50:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async InstanceValidator._validateAndRunHooks (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/instance-validator.js:60:7)
+    at async InstanceValidator.validate (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/instance-validator.js:54:12)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2368:7)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 11:46:44 [express] error: uncaughtException: Table 'nodejs.users' doesn't exist
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 11:46:49 [express] error: uncaughtException: Table 'nodejs.users' doesn't exist
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 11:46:58 [express] error: uncaughtException: Table 'nodejs.users' doesn't exist
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 11:47:11 [express] error: uncaughtException: Table 'nodejs.users' doesn't exist
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 11:49:24 [express] error: uncaughtException: Table 'nodejs.users' doesn't exist
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 12:38:14 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 12:38:17 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 12:39:26 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 12:42:26 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 12:44:39 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 12:49:23 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 14:06:35 [express] error: uncaughtException: result is not defined
+ReferenceError: result is not defined
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:66:13)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-08 14:06:35 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 14:07:28 [express] error: uncaughtException: result is not defined
+ReferenceError: result is not defined
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:66:13)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-08 14:07:28 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 14:08:07 [express] error: uncaughtException: result is not defined
+ReferenceError: result is not defined
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:66:13)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-08 14:08:07 [express] error: uncaughtException: Cannot read properties of undefined (reading 'dataValues')
+TypeError: Cannot read properties of undefined (reading 'dataValues')
+    at /home/work/IdeaProjects/express-test/app.js:63:31
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-08 14:08:07 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 14:08:53 [express] error: uncaughtException: result is not defined
+ReferenceError: result is not defined
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:66:13)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-08 14:08:53 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 14:09:13 [express] error: uncaughtException: result is not defined
+ReferenceError: result is not defined
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:66:13)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-08 14:09:13 [express] error: uncaughtException: Cannot read properties of undefined (reading 'dataValues')
+TypeError: Cannot read properties of undefined (reading 'dataValues')
+    at /home/work/IdeaProjects/express-test/app.js:63:31
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-08 14:09:13 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 14:09:28 [express] error: uncaughtException: Cannot read properties of undefined (reading 'dataValues')
+TypeError: Cannot read properties of undefined (reading 'dataValues')
+    at /home/work/IdeaProjects/express-test/app.js:63:31
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-08 14:09:28 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 14:09:52 [express] error: uncaughtException: Cannot read properties of undefined (reading 'dataValues')
+TypeError: Cannot read properties of undefined (reading 'dataValues')
+    at /home/work/IdeaProjects/express-test/app.js:60:31
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-08 14:09:52 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 14:09:59 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 14:10:01 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 14:10:18 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 14:10:49 [express] error: uncaughtException: undefined is not a function
+TypeError: undefined is not a function
+    at Array.map (<anonymous>)
+    at /home/work/IdeaProjects/express-test/app.js:60:26
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-08 14:10:49 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 14:12:56 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 14:14:08 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 14:16:28 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 14:18:29 [express] error: uncaughtException: Validation error
+Error
+    at Query.run (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async User.save (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2432:35)
+    at async Function.create (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1344:12)
+2022-11-08 14:33:47 [express] error: uncaughtException: married is not defined
+ReferenceError: married is not defined
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:62:9)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-08 14:46:31 [express] error: uncaughtException: Missing where attribute in the options parameter
+AssertionError [ERR_ASSERTION]: Missing where attribute in the options parameter
+    at Function._optionsMustContainWhere (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2078:5)
+    at Function.update (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1844:10)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:70:6)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+2022-11-08 14:46:57 [express] error: uncaughtException: Missing where attribute in the options parameter
+AssertionError [ERR_ASSERTION]: Missing where attribute in the options parameter
+    at Function._optionsMustContainWhere (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2078:5)
+    at Function.update (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1844:10)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:70:6)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+2022-11-08 15:41:43 [express] error: uncaughtException: Cannot read properties of undefined (reading 'configure')
+TypeError: Cannot read properties of undefined (reading 'configure')
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:78:10)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-08 15:41:58 [express] error: uncaughtException: Include unexpected. Element has to be either a Model, an Association or an object.
+Error: Include unexpected. Element has to be either a Model, an Association or an object.
+    at Function._conformInclude (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:323:11)
+    at /home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:270:61
+    at Array.map (<anonymous>)
+    at Function._conformIncludes (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:270:39)
+    at Function._baseMerge (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:622:10)
+    at Function._defaultsOptions (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:656:17)
+    at Function._injectScope (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:2001:10)
+    at Function.findAll (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1105:10)
+    at Function.findOne (/home/work/IdeaProjects/express-test/node_modules/sequelize/lib/model.js:1228:23)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:75:19)
+2022-11-08 15:42:08 [express] error: uncaughtException: Comment is not defined
+ReferenceError: Comment is not defined
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:77:17)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-08 15:42:46 [express] error: uncaughtException: Comment is not defined
+ReferenceError: Comment is not defined
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:77:17)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-08 15:57:16 [express] error: uncaughtException: Comment is not defined
+ReferenceError: Comment is not defined
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:77:17)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-08 15:57:57 [express] error: uncaughtException: Comment is not defined
+ReferenceError: Comment is not defined
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:77:17)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-08 16:01:49 [express] error: uncaughtException: Comment is not defined
+ReferenceError: Comment is not defined
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:77:17)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-08 16:04:25 [express] error: uncaughtException: Comment is not defined
+ReferenceError: Comment is not defined
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:77:17)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-08 16:06:37 [express] error: uncaughtException: Comment is not defined
+ReferenceError: Comment is not defined
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:77:17)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-08 16:06:42 [express] error: uncaughtException: Comment is not defined
+ReferenceError: Comment is not defined
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:77:17)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+2022-11-08 16:06:59 [express] error: uncaughtException: Comment is not defined
+ReferenceError: Comment is not defined
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/app.js:77:17)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/work/IdeaProjects/express-test/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
